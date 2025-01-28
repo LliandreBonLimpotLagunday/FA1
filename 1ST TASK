@@ -7,4 +7,4 @@ var heightRemainingInches = heightInInches % 12;
 
 var weightPounds = weightInKg * 2.20462;
 
-alert("Name: " + nickname + "\nHeight: " + heightInFeet + "'" + heightInRemainingInches + "\"\nWeight: " + weightInPounds.toFixed(3) + " lbs");
+alert("Name: " + Name + "\nHeight: " + heightFeet + "'" + heightRemainingInches + "\"\nWeight: " + weightPounds.toFixed(3) + " lbs");
