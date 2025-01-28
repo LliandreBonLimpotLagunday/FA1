@@ -1,0 +1,10 @@
+var Name = prompt("Enter your nickname:");
+var heightInches = parseFloat(prompt("Enter your height in inches:"));
+var weightKg = parseFloat(prompt("Enter your weight in kilograms:"));
+
+var heightFeet = Math.floor(heightInInches / 12);
+var heightRemainingInches = heightInInches % 12;
+
+var weightPounds = weightInKg * 2.20462;
+
+alert("Name: " + nickname + "\nHeight: " + heightInFeet + "'" + heightInRemainingInches + "\"\nWeight: " + weightInPounds.toFixed(3) + " lbs");
